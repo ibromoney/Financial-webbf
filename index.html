@@ -1,706 +1,265 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-nav{
-    height: 80px;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 300px;
-    justify-content: center;
-    position: fixed;
-    background-color: #2acdfe;
-}
-.menu{
-    /* display: ; */
-    display: none;
-    flex-direction: column;
-    gap: 8px;
-}
-.bar{
-    height: 5px;
-    width: 26px;
-    margin-top: 3px;
-    background-color: white;
-}
-@media screen and (max-width:1024px) {
-
-    ul>a{
-        display: none;
-    }
-    nav{
-        gap: 320px;
-    }
-    .numb{
-        display: none;
-    }
-    .menu{
-        display: block;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financier</title>
+    <link rel="stylesheet" href="Style.css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav>
+    <header>Financier</header>        
+        <ul>
+            <a href="#home">Home</a>
+            <a href="#solution">Solution</a>
+            <a href="#service">Service</a>
+            <a href="#about">About</a>
+            <a href="#contact us">Contact Us</a>
+            
+        </ul>
+        <div class="numb">
+            <p style="color: white;"><span><i class="fa-solid fa-phone"></i></span> +234-7039406230</p>
+        </div>
+        <div class="menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
     
-}
-@media screen and (max-width:650px) {
+    <section id="home">
+        <div class="container">
+                <div class=" item">
+                <h1>We Help Grow <br> Your Business</h1>
+                <p>Far far away, behind the word mountains, far from the <br>
+                  countries Vokalia and Consonantia, there live the blind <br>
+                  texts.</p>
+                  <div class="watch">
+                    <div class="watch-item">
+                        <button>Contact us</button>
+                    </div>
+                    <div class="watch-item">
+                        <h3>watch the video</h3>
+                    </div>
+                  </div>
+                </div>
+            <div class="item"><img src="./asset/img_6.jpeg" alt=""></div>
+        </div>
+    </section>
+    <section id="Solution">
+        <div class="container2">
+            <div class="solution-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains,<br>
+                     far from the countries Vokalia and <br>
+                     Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="solution-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, <br>
+                    far from the countries Vokalia and <br>
+                    Consonantia, there live the blind texts.</p>
+            </div>
+            <div class="solution-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains,<br>
+                   far from the countries Vokalia and <br>
+                   Consonantia, there live the blind texts.</p>
+            </div>
+        </div>
+    </section>
+    <section id="Service">
+        <h1>OUR SERVICE</h1>
+        <p>Far far away, behind the word mountains,
+            far from the countries Vokalia <br>
+                         and Consonantia, there live the blind texts</p>
+        <div class="container">
+            <div class="service-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, far <br>
+                    from the countries Vokalia and Consonantia, <br> 
+                    there live the blind texts.</p>
+                    <button>Read more</button>
+            </div>
+            <div class="service-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, far <br>
+                    from the countries Vokalia and Consonantia, <br>
+                    there live the blind texts.</p>
+                    <button>Read more</button>
+            </div>
+            <div class="service-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, far <br>
+                    from the countries Vokalia and Consonantia, <br>
+                    there live the blind texts.</p>
+                    <button>Read more</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="service-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, far <br>
+                    from the countries Vokalia and Consonantia, <br>
+                    there live the blind texts.</p>
+                    <button>Read more</button>
+            </div>
+            <div class="service-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, far <br>
+                    from the countries Vokalia and Consonantia, <br>
+                    there live the blind texts.</p>
+                    <button>Read more</button>
+            </div>
+            <div class="service-item">
+                <h2>On Time Service</h2>
+                <p>Far far away, behind the word mountains, far <br>
+                    from the countries Vokalia and Consonantia, <br>
+                    there live the blind texts.</p>
+                    <button>Read more</button>
+            </div>
+        </div>
+    </section> 
+     <section id="talk">
+        <div class="word-container">
+            <div class="word-container2">
+              <div class="box1">
+                <h1>WANNA TALK TO US?</h1>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia <br>
+                    and Consonantia, there live the blink</p>
+                </div>
+               <div class="box1">
+                <button>Contact us</button>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+            <h1>OUR PORTFOLIO</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia <br>
+                    and Consonantia, there live the blind texts.</p>
+         <div class="port-container">
+            <button>Prev</button><button>Next</button>
+         </div>
+    </section>
+    <section id="folio">
+         <div class="folio-container">
+            <div class="folio-item">
+                <img src="./asset/img_1.jpeg" alt="">
+                <h3>Behind the word mountains</h3>
+                <p>Far far away, behind the word mountains, far from <br>
+                    the countries Vokalia and Consonantia, there live <br>
+                    the blind texts.</p>
+            </div>
+            <div class="folio-item">
+                <img src="./asset/img_2.jpeg" alt="">
+                <h3>Behind the word mountains</h3>
+                <p>Far far away, behind the word mountains, far from <br>
+                    the countries Vokalia and Consonantia, there live <br>
+                    the blind texts.</p>
+            </div>
+            <div class="folio-item">
+                <img src="./asset/img_3.jpeg" alt="">
+                <h3>Behind the word mountains</h3>
+                <p>Far far away, behind the word mountains, far from <br>
+                    the countries Vokalia and Consonantia, there live <br>
+                    the blind texts.</p>
+            </div>
+        </div>
+        </section>
+         <section id="testimonia">
+            <div class="testimonia-container">
+                <div class="testimonia-item">
+                    <h1>TESTIMONIALS</h1>
+                </div>
 
-    ul>a{
-        display: none;
-    }
-    nav{
-        gap: 120px;
-    }
+            <div class="testimonia-container">
+                <div class="testimonia-item2">
+                    <img src="./asset/img_3.jpeg" alt="">
+                </div>
+                <div class="testimonia-item2">
+                    <p>Far far away, behind the word mountains, <br>
+                        far from the countries Vokalia and <br>
+                        Consonantia, there live the blind texts. <br>
+                        Separated they live in Bookmarksgrove right <br>
+                        at the coast of the Semantics, a large <br>
+                        language ocean.</p>
+                        <h5>John Campbell</h5>
+                        <h6>CEO & Co-founder</h6>
+                </div>
+            </div>
+        </section>
+        <h1>LATEST NEWS</h1>
+        <section id="New" >
+            <div class="news-container">
+                <div class="news-item">
+                    <img src="./asset/img_1.jpeg" alt="">
+                    <h5>Jan 20,2021</h5>
+                    <h4>Behind the word mountains</h4>
+                    <p>Far far away, behind the word mountains, far <br>
+                        from the countries Vokalia and Consonantia, <br>
+                        there live the blind texts.</p>
+                    <button>Read more</button>
+                </div>
+                <div class="news-item">
+                    <img src="./asset/img_6.jpeg" alt="">
+                    <h5>Jan 20,2021</h5>
+                    <h4>Behind the word mountains</h4>
+                    <p>Far far away, behind the word mountains, far <br>
+                        from the countries Vokalia and Consonantia, <br>
+                        there live the blind texts.</p>
+                        <button>Read more</button>
+                </div>
+                <div class="news-item">
+                    <img src="./asset/img_4.jpeg" alt="">
+                    <h5>Jan 20,202</h5>
+                    <h4>Behind the word mountains</h4>
+                    <p>Far far away, behind the word mountains, far <br>
+                        from the countries Vokalia and Consonantia, <br>
+                        there live the blind texts.</p>
+                        <button>Read more</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="futer-container">
+                <div class="futer-item">
+                    <h1>Contact</h1>
+                    <a href="" style="text-decoration: none;">43 Raymouth Rd. Baltemoer, London</a><br><br>
+                    <a href="" style="text-decoration: none;">+1(234)70-3940-6230</a><br><br>
+                    <a href="" style="text-decoration: none;"> +1(234)70-6900-0550</a><br><br>
+                    <a href="" style="text-decoration: none;">info@mydomain.com</a><br><br>
 
-    .numb{
-        display: none;
-    }
-    .menu{
-        display: block;
-    }
+                </div>
+                <div class="futer-item">
+                    <h1>Sources</h1>
+                    <a href="" style="text-decoration: none;">About Us</a><br><br>
+                    <a href="" style="text-decoration: none;">Services</a><br><br>
+                    <a href="" style="text-decoration: none;">Vision</a><br><br>
+                    <a href="" style="text-decoration: none;">Missionp</a><br><br>
+                    <a href="" style="text-decoration: none;">Terms</a><br><br>
+                    <a href="" style="text-decoration: none;">Privacy</a>
+                </div>
+                <div class="futer-item">
+                    <h1></h1><br><br>
+                    <a href="" style="text-decoration: none; ">Partners</a><br><br>
+                    <a href="" style="text-decoration: none;">Business</a><br><br>
+                    <a href="" style="text-decoration: none;">Vision</a><br><br>
+                    <a href="" style="text-decoration: none;">Blog</a><br><br>
+                    <a href="" style="text-decoration: none;">FAQ</a><br><br>
+                    <a href="" style="text-decoration: none;">Creative</a>
+                </div>
+                <div class="futer-item">
+                    <h1>Link</h1>
+                    <a href="" style="text-decoration: none;">Our Vision</a><br><br>
+                    <a href="" style="text-decoration: none;">About us</a><br><br>
+                    <a href="" style="text-decoration: none;">Contac us</a><br><br>
+                    <i class="fa-brands fa-instagram"></i> 
+                </div>
+            </div>
+        </footer> 
     
-}
-
-ul>a{
-    color: #FAFAFA;
-    text-decoration: none;
-    font-size: 0.8rem;
-}
-ul{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-header{
-    color: #FAFAFA;
-    font-family: "Anton", sans-serif;
-}
-/* home section */
-
-.container{
-    width: 100%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 3%; 
-    background-color: #2acdfe;
-}
-.item{
-    width: 35%;
-    height: 400px;
-    margin-top: 70px;
-}
-.item>h1{
-    font-size: 3rem;
-    font-family: "Roboto", sans-serif ;
-    color: white;
-    margin-top: 30px;
-    
-}
-.item>p{
-    color: white;
-    font-size: 0.9;
-    margin-top: 20px;
-}
-.watch{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-.watch-item{
-    margin-top: 40px;
-    width: 45%;
-    height: 60px;
-    
-}
-.watch-item>button{
-    width: 150px;
-    border: 0;
-    background-color: #4BB0FE;
-    color: white;
-    height: 40px;
-    border-radius: 50px;
-}
-.watch-item>h3{
-    font-family: "Roboto" sans-serif;
-    color: white;
-    margin-top: 10px;
-    
-}
-.item>img{
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-}
-@media screen and (max-width:650px) {
-   
-    .container{
-        flex-direction: column;
-        height: fit-content;
-    }
-    .item{
-        width: 95%;
-        margin-top: 0px;
-        height: fit-content;
-    }
-    .item>h1{
-        font-size: 1rem;
-        margin-top: 90px;
-    }
-    .item>p{
-        text-align: center;
-    }
-    .watch{
-        flex-direction: column;
-    }
-    .watch-item{
-        margin-top: 20px;
-        height: 20px;
-    }
-}
-@media screen and (max-width:1024px) {
-   
-    .container{
-        flex-direction: column;
-    }
-    .item{
-        width: 95%;
-        margin-top: 0px;
-    }
-    .item>h1{
-        font-size: 1rem;
-    }
-    .item>p{
-        text-align: center;
-    }
-    .watch{
-        flex-direction: column;
-    }
-    .watch-item{
-        margin-top: 20px;
-        height: 20px;
-    }
-}
-
-/* solution section */
-#solution{
-    background-color: #FAFAFA;
-    
-}
-.container2{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 3%;
-    background-color: #FAFAFA;
-}
-.solution-item{
-    width: 35%;
-    height: 400px;
-    background-color: #ffffff;
-}
-.solution-item>h2{
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-.solution-item>p{
-    color: #9CA4A7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-}
-@media screen and (max-width:650px) {
-    .container2{
-        flex-direction: column;
-    }
-    .solution-item{
-        width: 90%;
-        margin-top: 20px;
-        height: 150px;
-    }
-}
-@media screen and (max-width:1024px) {
-    .container2{
-        flex-direction: column;
-    }
-    .solution-item{
-        width: 90%;
-        margin-top: 20px;
-        height: 150px;
-    }
-}
-/* service section */
-#service{
-    background-color: #FAFAFA;
-}
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #4BB0FE;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 3rem;
-}
-p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #9CA4A7;
-    margin-top: 10px;
-}
-
-/* service section */
-.container3{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 3%;
-
-    
-}
-.service-item{
-    width: 35%;
-    height: 400px;
-    background-color: #ffffff;
-}
-
-.service-item>h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    color: rgb(0,0,0);
-    font-family:  "Roboto Condensed", sans-serif;
-
-}
-.service-item>p{
-    color: #9CA4A7;
-    margin-top: 10px;
-}
-.service-item>button{
-    width: 120px;
-    height: 40px;
-    border-radius: 20px;
-    border: 0;
-    margin: 80px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FAFAFA;
-    color: #2ec9fe;
-}
-.service-item>button:hover{
-    background-color: #4BB0FE;
-    color: #FAFAFA ;
-}
-@media screen and (max-width:650px) {
-    .container3{
-        flex-direction: column;
-    }
-    .service-item{
-        width: 95%;
-        text-align: center;
-    }
-    .service-item>buttton{
-        margin-left: 20px;
-    }
-}
-@media screen and (max-width:1024px) {
-    .container3{
-        flex-direction: column;
-    }
-    .service-item{
-        width: 95%;
-        text-align: center;
-    }
-    .service-item>buttton{
-        margin-left: 20px;
-    }
-}
-/* word section */
-.word-container2{
-    width: 80%;
-    display: flex;  
-    justify-content: space-between;
-    padding: 3%;
-}
-.word-container{
-    width: 100%;
-    height: 70vh;
-    background-image: url(/asset/img_4.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #6B5C4E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.box1:first-child{
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.box1:last-child{
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-.box1>h1{
-     font-size: 3rem;
-     color: #ffffff;
-    
-}
-.box1>p{
-    color: #FAFAFA;
-    font-size: 0.9rem;
-}
-.box1>button{
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    border: 0;
-    color: #ffffff;
-    background-color: #4BB0FE;
-}
-@media screen and (max-width:650px) {
-    .word-container2{
-        height: fit-content;
-        flex-direction: column;
-        padding-bottom: 3%;
-    }
-    .box1:first-child{
-        margin-top: 80px;
-    }
-}
-@media screen and (max-width:1024px) {
-    .word-container2{
-        height: fit-content;
-        flex-direction: column;
-        padding-bottom: 3%;
-    }
-    .box1:first-child{
-        margin-top: 80px;
-    }
-}
-/* section-Portfolio */
-.port-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 3%;
-    /* background-color: red; */
-}
-.port-container>h1{
-    font-size: 1.5rem;
-    font-family: "Roboto Condensed", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.port-container>p{
-    color: #9CA4A7;
-    font-size: 5rem;
-}
-.port-container>button{
-    height: 40px;
-    width: 120px;
-    margin-top: 10px;
-    border-radius: 20px;
-    border: 0; 
-    color: #ffffff;
-    background-color: #4BB0FE;
-}
- /* folio section */
-.folio-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 3%;
-    background-color: #ffffff;
-}
-.folio-item{
-    width: 35%;
-    height: 400px;
-
-}
-.folio-item>img{
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
-}
-.folio-item>h3{
-    font-size: 1.5rem;
-    margin-top: 10px;
-    /* padding-left: 27px; */
-    color: black;
-}
-.folio-item>p{
-    color: #9CA4A7;
-    margin-top: 10px;
-}
-@media screen and (max-width:650px) {
-    #portfolio>p{
-        text-align: center;
-    }
-    .folio-container{
-        flex-direction: column;
-    }
-    .folio-item{
-        width: 90%;
-    }
-}
-@media screen and (max-width:1024px) {
-    #portfolio>p{
-        text-align: center;
-    }
-    .folio-container{
-        flex-direction: column;
-    }
-    .folio-item{
-        width: 90%;
-    }
-}
-/* testimonia-section */
-
-.testimonia-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 10%;
-    background-color: #ffffff;
-}
-
-.testimonia-item{
-    width: 35%;
-    height: 100px;
-}
-
-.testimonia-item>h1{
-    margin-bottom: 2rem;
-    padding-right: 90px;
-    font-family:  "Work Sans", sans-serif;
-    font-weight: bold;
-}
-
-.testimonia-item>p{
-    font-size: 0.7rem;
-    margin-top: 100px;
-    color: #6B5C4E;
-}
-
-.testimonia-item2{
-    width: 45%;
-    height: 400%;
-    background-color: #FAFAFA;
-}
-
-.testimonia-item2>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.testimonia-item2>p{
-    color: #000;
-    font-size: 18px;
-    font-family:  'Georgia', serif;
-    font-style: italic;
-    margin-bottom: 1rem;
-    padding-left: 30px;
-}
-
-.testimonia-item2>h5{
-    color: #000;
-    font-size: 0.9rem;
-    flex-direction: column;
-    padding-left: 60px;
-}
-
-.testimonia-item2>h6{
-    font-size: 0.8rem;
-    font-weight: bold;
-    font-style: normal;
-    padding-left: 60px;
-    margin-top: 6px;
-    color: #9CA4A7;
-}
-@media screen and (max-width:650px) {
-    .testimonia-container{
-        flex-direction: column;
-    }
-    .testimonia-item{
-        width: 90%;
-        height: 60px;
-        margin-top: 0px;
-        
-    }
-    .testimonia-item>h1{
-        font-size: 17px;
-        text-align: center;
-        padding: 0;
-    }
-    .testimonia-item2{
-        width: 96%;
-        height: fit-content;
-    }
-}
-@media screen and (max-width:1024px) {
-    .testimonia-container{
-        flex-direction: column;
-    }
-    .testimonia-item{
-        width: 90%;
-        height: 60px;
-        margin-top: 0px;
-        
-    }
-    .testimonia-item>h1{
-        font-size: 17px;
-        text-align: center;
-        padding: 0;
-    }
-    .testimonia-item2{
-        width: 96%;
-        height: fit-content;
-    }
-}
-
-/* news-section */
-.news-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 3%;
-}
-
-.news-item{
-    width: 35%;
-    height: fit-content;
-}
-
-.news-item>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.news-item>h5{
-    /* padding-left: 40px; */
-    font-size: 1rem;
-    color: #9CA4A7;
-    margin-top: 15       px;
-}
-
-.news-item>h4{
-    /* padding-left: 40px; */
-    font-size: 1.5rem;
-    color: #2ec9fe;
-    margin-top: 15px;
-
-
-}
-
-.news-item>p{
-    color: #9CA4A7;
-    margin-top: 7px;
-    text-align: center;
-}
-
-.news-item>button{
-    height: 30px;
-    width: 100px;
-    border-radius: 15px;
-    border: 0;
-    color: #4BB0FE;
-    margin-left: 40px;
-    margin-top: 20px;
-    background-color: #ffffff;
-}
-@media screen and (max-width:650px) {
-    .news-container{
-        flex-direction: column;
-    }
-    .news-item{
-        width: 90%;
-    }
-   
-}
-@media screen and (max-width:1024px) {
-    .news-container{
-        flex-direction: column;
-    }
-    .news-item{
-        width: 90%;
-    }
-   
-}
-/* futer section  */
-
-.futer-container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 3%;
-    background-color: #EFEFEF;
-}
-
-.futer-item{
-    width: 25%;
-    height: 300px;
-
-}.futer-item>h1{
-    font-size: 1rem;
-    /* font-weight: 700px; */
-    margin-top: 10px;
-    display: flex;
-    justify-content: left;
-}
-.futer-item>p{
-    display: flex;
-    justify-content: left;
-    color: #6B5C4E;
-}
-
-@media screen and (max-width:650px) {
-    .futer-container{
-        flex-direction: column;
-    }
-    .futer-item{
-        width: 90%;
-    }
-}
-@media screen and (max-width:1024px) {
-    .futer-container{
-        flex-direction: column;
-    }
-    .futer-item{
-        width: 90%;
-    }
-}
+    </body>
+</html>
