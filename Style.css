@@ -28,22 +28,6 @@ nav{
     margin-top: 3px;
     background-color: white;
 }
-@media screen and (max-width:650px) {
-
-    ul>a{
-        display: none;
-    }
-    nav{
-        gap: 120px;
-    }
-    .numb{
-        display: none;
-    }
-    .menu{
-        display: block;
-    }
-    
-}
 @media screen and (max-width:1024px) {
 
     ul>a{
@@ -60,6 +44,24 @@ nav{
     }
     
 }
+@media screen and (max-width:650px) {
+
+    ul>a{
+        display: none;
+    }
+    nav{
+        gap: 120px;
+    }
+
+    .numb{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    
+}
+
 ul>a{
     color: #FAFAFA;
     text-decoration: none;
@@ -138,13 +140,16 @@ header{
    
     .container{
         flex-direction: column;
+        height: fit-content;
     }
     .item{
         width: 95%;
         margin-top: 0px;
+        height: fit-content;
     }
     .item>h1{
         font-size: 1rem;
+        margin-top: 90px;
     }
     .item>p{
         text-align: center;
